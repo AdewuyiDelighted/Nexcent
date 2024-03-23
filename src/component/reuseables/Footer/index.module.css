@@ -1,0 +1,67 @@
+.footer{
+    background-color: #F5F7FA;
+    /*height: 90vh;*/
+}
+.button{
+    border: 2px solid #4CAF4F;
+    border-radius: 4px;
+    padding: 10px 40px;
+    height: 35px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    height: 60px;
+}
+.miniBox{
+    display: flex;
+    flex-direction: row;
+    background-color: #263238;
+    justify-content: space-evenly;
+    padding-top:40px;
+    height: 45vh;
+}
+.text{
+    color: white;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    top: 40px;
+
+}
+.oneSocial{
+    color: white;
+    height: 2vh;
+
+
+}
+
+.company{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 70px;
+
+}
+.list{
+
+}
+.email{
+    width:255px;
+    height:40px;
+    border-radius:8px;
+    backgroundColor: #D9DBE1;
+    font-weight:400;
+    font-size: 12px;
+    lineHeight:"20px";
+    text-align: center;
+}
+.heading{
+    font-size:20px;
+    font-weight: 600;
+
+}

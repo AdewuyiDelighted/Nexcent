@@ -1,0 +1,51 @@
+.mainBoard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+
+
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid blue;*/
+    text-align: center;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    /*border: 2px solid red ;*/
+    color: #4D4D4D;
+}
+.minitext{
+    font-size: 15px;
+
+}
+
+.clientLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+.logo{
+    height: 4vh;
+}
+.sectionTitle{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #4D4D4D;
+}
+.description{
+    font-size: 15px;
+    color: #4D4D4D;
+}
+/*.break{*/
+/*    text-align: right;*/
+/*}*/

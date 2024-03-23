@@ -1,0 +1,29 @@
+.textOne{
+    font-size: 40px;
+    font-weight: 600;
+    /*border: 2px solid blue;*/
+}
+
+.allText{
+    /*border: 2px solid purple;*/
+}
+
+.textTwo{
+    color: #4CAF4F;
+}
+
+.mainBoard{
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid red;*/
+}
+
+.miniBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*border: 2px solid pink;*/
+    justify-content: space-around;
+    gap: 60px;
+}
