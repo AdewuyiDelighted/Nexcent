@@ -23,7 +23,8 @@ const Helping = () => {
                             <img src={iconOne} alt={"icon"} className={style.image} style={{height: "6vh"}}/>
                             <div className={style.memberText}>
                                 <p className={style.memberNum}>2,245,341 <span style={{display: "block"}}
-                                                                               className={style.smallMember}>Member</span></p>
+                                                                               className={style.smallMember}>Member</span>
+                                </p>
                             </div>
                         </div>
 
