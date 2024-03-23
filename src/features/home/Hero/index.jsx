@@ -1,6 +1,9 @@
 import style from "./index.module.css"
 import FilledButton from "../../../component/reuseables/filledButtons";
 import heroImage from "../../../asset/hero/Illustration.svg"
+import dotOne from "../../../asset/hero/dotOne.png"
+import dotTwo from "../../../asset/hero/dotTwo.png"
+import dotThree from "../../../asset/hero/dotThree.png"
 
 const Hero = () => {
     return (
@@ -15,7 +18,14 @@ const Hero = () => {
                 </div>
                 <img src={heroImage} alt={"heroImage"}/>
             </div>
+            <div className={style.threeDot}>
+                <img src={dotOne}/>
+                <img src={dotTwo}/>
+                <img src={dotThree}/>
+            </div>
         </div>
+
+
     )
 }
 
