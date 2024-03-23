@@ -26,6 +26,7 @@ body{
 }
 .sectionTitle{
     text-align: center;
+    background-color: white;
 }
 .main{
     height: 150vh;
