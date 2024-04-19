@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 100px;
+    /*gap: 100px;*/
 
 
 }
@@ -41,6 +41,10 @@
     font-weight: 600;
     text-align: center;
     color: #4D4D4D;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
 }
 .description{
     font-size: 15px;
@@ -49,3 +53,16 @@
 /*.break{*/
 /*    text-align: right;*/
 /*}*/
+
+@media screen and (max-width: 760px){
+    .communityImage{flex-direction: column}
+
+    .oneItem > h3{
+        font-size: 25px;
+    }
+
+    
+}
+
+
+

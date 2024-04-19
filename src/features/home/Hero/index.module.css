@@ -24,3 +24,9 @@
     /*height: 10vh;*/
     /*width: 5px;*/
 }
+
+
+@media screen and (max-width: 760px) {
+    .heroImage{display: none}
+
+}

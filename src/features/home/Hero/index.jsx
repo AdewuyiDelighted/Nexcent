@@ -16,7 +16,7 @@ const Hero = () => {
                     <p>Where to grow your business as a photographer: site or social media?</p>
                     <FilledButton color={"#4CAF4F"} text={"Register"} textColor={"#F5F7FA"}/>
                 </div>
-                <img src={heroImage} alt={"heroImage"}/>
+                <img className={style.heroImage} src={heroImage} alt={"heroImage"}/>
             </div>
             <div className={style.threeDot}>
                 <img src={dotOne}/>

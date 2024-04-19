@@ -7,7 +7,7 @@ const Unseen = () => {
     return (
         <div className={style.mainBoard}>
             <div className={style.image}>
-                <img src={image} alt={"Image"}/>
+                <img  className={style.image} src={image} alt={"Image"}/>
             </div>
             <div className={style.text}>
                 <h4>The unseen of spending three <br/>years at Pixelgrade</h4>

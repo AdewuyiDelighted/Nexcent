@@ -55,3 +55,8 @@ body{
     /*height: 1vh;*/
 
 }
+@media screen and (max-width: 760px) {
+    .mainBoard{flex-direction: column}
+    .mainBoardTwo{flex-direction: column}
+
+}

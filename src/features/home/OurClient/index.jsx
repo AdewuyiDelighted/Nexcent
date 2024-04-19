@@ -30,7 +30,8 @@ const OurClient = () => {
                     className={style.description} style={{display: "block"}}>Who is Nextcent suitable for
                 </span></p>
             </div>
-            <div style={{
+
+            <div  className={style.communityImage} style={{
                 display: "flex",
                 flex_direction: "row",
                 justifyContent: "center",
